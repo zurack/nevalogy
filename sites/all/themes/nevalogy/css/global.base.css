@@ -613,7 +613,7 @@ header[role=banner],
 }
 
 
-.wrap, 
+.wrap,
 .page-taxonomy-term .nodes {
 	position: relative;
 	max-width: 1100px;
@@ -719,7 +719,7 @@ header[role=banner],
 .node-type-page #tasks,
 .node-type-article #tasks {
 	position: fixed;
-	top: 200px; 
+	top: 200px;
 	right: 30px;
 	z-index: 1000;
 	background: rgba(255,255,255,.9);
@@ -732,10 +732,10 @@ header[role=banner],
 }
 .page-taxonomy-term #tasks ul,
 .node-type-page #tasks ul,
-.node-type-article #tasks ul { 
+.node-type-article #tasks ul {
 	margin: 0;
 }
-#tasks ul li a {  
+#tasks ul li a {
 	-webkit-border-top-left-radius: 6px;
 	-webkit-border-top-right-radius: 6px;
 	-moz-border-radius-topleft: 6px;
@@ -756,7 +756,7 @@ header[role=banner],
 	height: 370px;
 	margin: 0 -2% 5% -2% !important;
 	overflow: hidden;
-	box-shadow: 0 5px 13px rgba(0,0,0,.8) inset;	
+	box-shadow: 0 5px 13px rgba(0,0,0,.8) inset;
 	text-indent: -9999px;
 }
 
@@ -916,20 +916,20 @@ header[role=banner],
 @media screen and (max-width: 768px) {
 .page-node-17.node-type-page #content .field-name-field-text-on-photo {
 	display: none;
-}	
+}
 }
 .node-type-page #content .field-name-field-text-on-photo p {
 	font: 400 20px/28px open sans,"Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif
 }
 
 
-#content .field-name-body img.left { 
-	float:left; 
+#content .field-name-body img.left {
+	float:left;
 	margin: 0 40px 40px 0;
 	max-width: 50%;
 }
-#content .field-name-body img.right { 
-	float:right; 
+#content .field-name-body img.right {
+	float:right;
 	margin: 0 0 40px 40px;
 	max-width: 50%;
 }
@@ -1045,7 +1045,7 @@ header[role=banner],
 
 @media screen and (min-width: 1140px) {
 	.category-header .header-photo img {
-		margin-top: -12%; 
+		margin-top: -12%;
 	}
 	.category-header .info {
 		padding: 0 725px 0 75px;
@@ -1083,7 +1083,7 @@ header[role=banner],
 }
 @media screen and (max-width: 800px) {
 	.category-header .header-photo img {
-		margin-top: -75px; 
+		margin-top: -75px;
 	}
 	.category-header .info h1,
 	.primary-category .category-header h1 {
@@ -1095,17 +1095,17 @@ header[role=banner],
 	}
 	.category-header .header-photo img,
 	.category-header.right .header-photo img {margin: 0;}
-	
+
 	.page-taxonomy-term-11 .category-header .header-photo img {margin-top: -2%;}
 }
 @media screen and (max-width: 700px) {
-	.page-taxonomy-term #main-content-header #page-title, 
+	.page-taxonomy-term #main-content-header #page-title,
 	.primary-category #main-content-header #page-title,
 	.category-header {
 		height: 250px;
 	}
 	.category-header .header-photo img {
-		margin: -30px 0 0; 
+		margin: -30px 0 0;
 		width: 100%;
 	}
 }
@@ -1186,6 +1186,7 @@ header[role=banner],
 	max-width: 1100px;
 	margin: auto;
 	padding: 15px 0 0;
+	position: relative;
 }
 .section-pods.primary {
 	border-top: none;
@@ -1469,8 +1470,8 @@ form.comment-form label {
 	font: 800 11px/20px "Open Sans",Helvetica,Arial,sans-serif;
 	text-transform: uppercase;
 }
-form.comment-form input, 
-form.comment-form select, 
+form.comment-form input,
+form.comment-form select,
 form.comment-form textarea {
 	border: none;
 	border-bottom: 2px solid #ccc;
