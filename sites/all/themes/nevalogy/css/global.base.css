@@ -1218,6 +1218,7 @@ header[role=banner],
 }
 .category-description p {
 	margin: 0 0 2%;
+	color: red;
 }
 
 
