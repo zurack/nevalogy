@@ -2510,3 +2510,14 @@ fieldset.filter-wrapper {
     top: 15px;
     left: 20px;
 }
+
+li.comment_forbidden {
+	font-size: 12px;
+	position: relative;
+	top: -15px;
+}
+li.comment_forbidden span a {
+	width: auto;
+	height: auto;
+	overflow: visible;
+}
