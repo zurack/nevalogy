@@ -71,6 +71,7 @@
 <?php print $styles; ?>
 <?php print $scripts; ?>
 <?php print $polyfills; ?>
+<meta name="google-site-verification" content="8QPbMwMbEFuUJwZjNLgQCg43FcT26quMwOFE9-Y2tuE" />
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
   <div id="skip-link" class="nocontent">
