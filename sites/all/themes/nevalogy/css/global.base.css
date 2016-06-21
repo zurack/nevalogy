@@ -897,8 +897,8 @@ header[role=banner],
     position: absolute;
     top: 250px;
     margin: -100px auto 0;
-    width: 50%;
-    padding:0 40% 0 10%;
+    width: 60%;
+    padding:0 20%;
 }
 .page-node-19.node-type-page #main-content-header #page-title {
 	margin: 95px auto -90px;
@@ -909,8 +909,8 @@ header[role=banner],
     position: absolute;
     top: 320px;
     margin: -100px auto 0;
-    width: 50%;
-    padding:20px 40% 0 10%;
+    width: 60%;
+    padding:20px 20% 0;
     background-color: rgba(255,255,255,0.85);
 }
 @media screen and (max-width: 768px) {
@@ -918,6 +918,7 @@ header[role=banner],
 	display: none;
 }
 }
+
 .node-type-page #content .field-name-field-text-on-photo p {
 	font: 400 20px/28px open sans,"Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif
 }
@@ -953,7 +954,9 @@ header[role=banner],
 
 /* Basic Page > Ask Neva */
 .page-node-17 .field-type-text-with-summary {
-	display: none;
+	float: right;
+	width: 30%;
+	margin: 4% 3% 0 0;
 }
 .page-node-17 #webform-client-form-17 {
 	padding: 0 4% 6%;
@@ -1546,7 +1549,63 @@ article.comment nav a:hover:before {
 	margin: 0 0 3% 3%;
 }
 
+/* Ask Neva quotes */
+#node-17 blockquote {
+	position: relative;
+	margin: 0;
+	padding: 5%;
+}
+#node-17 blockquote p {
+	font: 400 22px/32px open sans, helvetica, arial, sans-serif;
+}
+#node-17 blockquote strong,
+#node-17 blockquote .author {
+	display: block;	
+	text-align: right;
+	font: italic 600 18px/32px open sans, helvetica, arial, sans-serif;
+}
+#node-17 blockquote:before {
+	position: absolute;
+	left: 0;
+	font-family: FontAwesome;
+	content: "\f10d";
+	font-size: 50px;
+	opacity: .2;
+}
 
+/* FAQs list styling */
+#block-views-faqs-view-block {
+	position: relative;
+	max-width: 1100px;
+	margin: auto;
+	padding: 0 3% 5%;
+}
+#block-views-faqs-view-block h2.block-title {
+	font: 20px/38px "open sans", helvetica, arial, sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.questions .question {
+	position: relative;
+	padding: 3% 0;
+}
+.questions .question.views-row-first {
+	border: none;
+}
+.questions .question .label {
+	text-transform: uppercase;
+	color: #9b22b5;
+	font: 700 11px/20px "Open Sans",Helvetica,Arial,sans-serif;
+}
+.questions .question h2 {
+	margin: 1% 0;
+	font: 400 34px/40px lora, serif;
+}
+.questions .question .answer {
+	margin: 0 0 1% 1%;
+	border-left: 2px solid #9b22b5;
+	padding: 0 0 0 3%;
+}
 
 /* Form Styling */
 
